@@ -1,0 +1,2 @@
+Documentation and install instruction is available online:
+http://iqit-commerce.com/xdocs/warehouse-theme-documentation/

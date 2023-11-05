@@ -1,0 +1,2 @@
+Please go to
+"Prestashop 1_7_6_x - theme 4.3.x\Updates" folder and upgrade theme to 4.3.7 first.

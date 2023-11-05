@@ -1,0 +1,8 @@
+Documentation and update instruction is available online:
+http://iqit-commerce.com/xdocs/warehouse-theme-documentation/
+and https://www.youtube.com/watch?v=eYJh5k8VQKo
+
+--------------
+UPDATE FROM OLDER VERSION
+Please go to
+"Prestashop 1_7_6_x - theme 4.3.x\Updates" folder and upgrade theme to 4.3.7 first.

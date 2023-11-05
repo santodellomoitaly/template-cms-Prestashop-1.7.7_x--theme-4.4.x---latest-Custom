@@ -1,0 +1,526 @@
+[PS 1.7.7 only]  4.4.2
+===============================
+
+NEW:
+- ps 1.7.7.1 compability check
+- new hooks in "content on hooks" 
+- change from slick carousel plugin to swiper(newer with better performancance, better touch support and fix for layout shifting issues)
+
+FIX:
+- instagram api problems - steps to do after upgrade https://iqitcommerce.ticksy.com/article/16771/
+- fix revolution sliders problems on 1.7.7
+- show elementor created manufacturer  description in product tabs if enabled
+- problem with saving elementor product description if there was added language to shop after module install
+- page preloader and footer reaveal issues
+- improved speed of fontawesome and google font load
+- revolutionslider ajaxerror
+- products order in megamenu 
+- attachment send from elementor contact form
+
+[PS 1.7.7 only] 4.4.1
+===============================
+
+FIX:
+- not working revolitionslider
+
+
+[PS 1.7.7 only] 4.4.0
+===============================
+
+NEW:
++ general: Prestashop 1.7.7.x support - it works only with 1.7.7, if you have older version upgrade presashop first
++ general: 'displayAboveMobileMenu', 'displayBelowMobileMenu' hooks added to iqithtmlandbanners and to "content on hooks" in page bulder
++ general: support for new version of prestashop productcomments module
++ iqitelementor: possiblit to choose to open in new window links in image hotspot widget
++ iqitextenedproduct: 360 pictures are now generated with new js plugin
+
+FIX:
+- product list refresh after add to cart for check qty
+- better loading of products carousels
+- remove infinity of carusel in zoom modal for thumbs
+- hover action is removed from smarpthone from product miniature to avoid need of double click on ios devices
+- column product images transform to caruses on mobile devices
+- iqitelementor: fix for empty css style values
+- iqitelementor: backend performance improvmants during edit
+- few other small bugfixe
+
+
+
+
+[PS 1.7.6] 4.3.7
+===============================
+
+NEW:
++ general: RTL languages support
+
+
+FIX:
+- product list refresh after add to cart for check qty
+- few other small bugfixes
+- google login button adjusted to goole ui
+- meta titles in blog listing
+
+
+
+[PS 1.7.6] 4.3.6
+===============================
+
+NEW:
++ general: 3 new demos to import + contact page layouts
++ iqitthemeeditor: 2 new header styles
++ iqitthemeeditor: possible to show to images per row in column view of product images on product page
++ iqitthemeeditor: accordion view of products data on product page
++ iqitthemeeditor: posibiltty of move product datas(tabs or accordion) to below add to cart on product page
++ iqitthemeeditor: new option of facated search design for above product list hook(each filter showed as dropdown)
++ iqitthemeeditor: design options for checkout page(simple footer, header)
++ iqitelementor: added z-index option to columns and widgets
++ iqitelementor: possible to set description in banner widget separatly per device
+
+FIX:
+- live theemeditor preview problem on some configurations
+- iqitcompare fix
+- iqitelementor: fix of autoplay of mp4 video in latest browsers
+- quickview product images when column images option is selected
+
+
+
+
+
+
+[PS 1.7.6] 4.3.5
+===============================
+NEW:
++ iqitthemeeditor: possibiloty to integrate google tag manager by id
++ iqitthemeeditor: possibiloty to disable product image zoom
++ iqitthemeeditor: new product page layput - product images in one column, not in carousel with sticky right column
++ iqitthemeeditor: new position for functional buttons
++ iqitcompare: new positions and options (confogiration is inside iqitthemeeditor - options - compare)
++ iqitreviews: added psgdpr compability
++ iqitelementor: added anchor widget - used for scroll to element on pages + added smooth scrolling css solution https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
++ iqitelementor: added search widget 
++ iqitelementor: added ajax contact form widget
++ iqitelementor: image size selector in brands widget
++ iqitelementor: Content on Hooks - place elementor created content in variouse hooks
++ iqitelementor: Manufacturer extended description support
++ iqitelementor: block links widget
++ iqitlinksmanager: option to open custom links in new window
++ blog: added external url post type
++ general: qty selector with buttons in ajax cart block
++ general: qty selector with buttons in product listings
++ general: move accessoreis from sidebar to product footer on mobile devices
+
+
+FIX:
+- search page meta tags
+- iqitelementor: better multistore support
+- blog: canonical urls fix
+- other few small bugfixes
+
+
+
+[PS 1.7.6] 4.3.4
+===============================
+FIX:
+- ajax product removal from cart box
+- ”out of stock with posibiloty to order’ label on list view
+- fixes in iqitsearch + possibility do disable additional search(blog posts and brands)
+
+
+[PS 1.7.6] 4.3.3
+===============================
+
+About prestashop upgrade - READ - https://build.prestashop.com/news/prestashop-1-7-6-6-maintenance-release/
+It is important to use latest version of upgrade module for upgrading
+
+INFO
+- Version dedicated for Prestashop 1.7.6.x
+
+NEW:
++ Prestashop 1.7.6.6 and 1.7.6.7 compability check
++ option to have sticky add to cart button on mobile devices
++ option to have customer/user dropdown menu in header with links
++ option to set separate colors for "out of stock with posibiloty to order' label 
++ google gtag id fieleld in thmeeeditor for easy adding of google tag/anatlitycs
++ iqitsearch: Search also return blog posts and brands
++ blog: addded blog to sitemap frontoffice controller
++ iqithtmlandbanners: new hooks for blocks
++ iqitextendedproduct : speed setting for 360 images in  module
++ iqitelementor: separete value for images per line setting depend on viewport in image carusel widget
++ iqitelementor: Lottie animations widget
++ iqitelementor: Usage of new Instagram api in widget + posibiloty to get feed by tag also
++ iqitelementor: possible to put mp4 video in video widget in addition to youtube and vimeo
+
+
+FIX:
+- iqitelementor: slow editing on some servers configurations
+- iqitelementor: possible to select pdf file as link in media manager
+- iqitsociallogin: api upgrades- fix for login problem
+- iqitreviews: problem with transaltiojs
+- iqitadditionaltabs: somebugfixes with languages and support for product duplicate hook
+- revolutionslider: some js error issues
+- iqitmegamenu: upgrade notification
+- blog: google+ removal from blog
+- blog: breadcrumb fixes
+- blog: og:tags improvmants
+- blog: some blog post layout desing fixes
+- general: fix for push menu close space click overlay
+- general: few other small fixes
+- general: litespeed cache support improvmant
+
+
+[PS 1.7.6] 4.3.2
+===============================
+
+==== # IMPORTANT NOTICE: 
+==== # You need to use Prestasho 1.7.6.x at least to use Warehouse 4.3.x
+
+About prestashop upgrade - READ - http://build.prestashop.com/news/prestashop-1-7-6-0-available/
+It is important to use latest version of upgrade module for upgrading
+
+INFO
+- Version dedicated for Prestashop 1.7.6.x
+
+NEW:
++ Prestashop 1.7.6.1 compability check
++ possible to show price on product page above add to cart(option in themeeditor)
+
+FIX:
+- clear homepagecache on add post
+
+
+
+[PS 1.7.6] 4.3.1
+===============================
+
+==== # IMPORTANT NOTICE: 
+==== # You need to use Prestasho 1.7.6.x at least to use Warehouse 4.3.x
+
+About prestashop upgrade - READ - http://build.prestashop.com/news/prestashop-1-7-6-0-available/
+It is important to use latest version of upgrade module for upgrading
+
+INFO
+- Version dedicated for Prestashop 1.7.6.x
+
+NEW:
++ spinner during add to cart on product list
++ upgraded version of blog module(better seo, gsitemap generator compatible)
++ Official Prestashop productcomments module support
+
+FIX:
+- elementor content on cms page will be not broken when cms page edited traditionaly
+- fix for saving code before </head> and </body> in themeeditor
+- now use custom avaiablity texts on product listings
+- add review confirmaiton on mobile devices
+- section background video fix for latest mobiles browsers
+- browser history with infinity scroll on productlist
+- back to top of product list after using pagination
+- facebook login popup width improvmant
+- installation problems on php 7.2.x +
+- missing continoue button on personal information step
+- few other small bugfixes
+
+
+
+
+
+[PS 1.7.6] 4.3.0
+===============================
+
+==== # IMPORTANT NOTICE: 
+==== # You need to use Prestasho 1.7.6.x at least to use Warehouse 4.3.x
+
+About prestashop upgrade - READ - http://build.prestashop.com/news/prestashop-1-7-6-0-available/
+It is important to use latest version of upgrade module for upgrading
+
+INFO
+- Version dedicated for Prestashop 1.7.6.x
+
+NEW:
+- compability with ps 1.7.6.x
+- revolutionslider module upgrade
+
+
+
+[PS 1.7.5] 4.2.2
+===============================
+
+INFO
+- Version dedicated for Prestashop 1.7.5.2
+
+NEW:
+- possible to set another logo file for Open graph tags
+- price range slider in Prestashop facated search module
+
+FIXES
+- improvmants in rich snippets
+- some seo fixes
+- few of small bugfixes
+
+
+
+
+
+[PS 1.7.5] 4.2.1
+===============================
+
+==== # IMPORTANT NOTICE: 
+==== # You need to use Prestasho 1.7.5.0 at least to use Warehouse 4.2.x
+
+About prestashop upgrade - READ - http://build.prestashop.com/news/prestashop-1-7-5-0-available/
+It is important to use latest version of upgrade module for upgrading
+
+
+- fix: css issues related to bootstrap switch
+- fix: adding to cart from listing pages
+
+
+
+[PS 1.7.5] 4.2.0
+===============================
+
+==== # IMPORTANT NOTICE: 
+==== # You need to use Prestasho 1.7.5.0 at least to use Warehouse 4.2.x
+
+About prestashop upgrade - READ - http://build.prestashop.com/news/prestashop-1-7-5-0-available/
+It is important to use latest version of upgrade module for upgrading
+
+- new: Prestashop 1.7.5.x - compabilty
+- new: upgrade bootstrap library from alpha to 4.2.1. stable
+- new: possible to choose url in widgets from media in filemanager
+- new: prev, next, canonical tags on blog pagination pages- avoid duplicated content
+- new: alert colors options in themeeditor
+- new: iqitisizechart: possible to assing chart also to brands
+- new: images in iqitelementor are now server from media server if it is used
+
+- fix: manufacturer descriptions button more/less visibiloty
+- fix: allow youtube iframe in elementor tinymce souruce code
+- fix: iqitadditionaltabs global tabs order not saved
+- fix: warning during logout on newsletter subscription confirmation page
+- fix: add rel="noopener" to target="_blank" links
+- fix: bugfixes in blog post opengraphs tags some
+
+
+
+[PS 1.7.4] 4.1.9
+===============================
+
+==== # IMPORTANT NOTICE: 
+==== # You need to use Prestasho 1.7.4.0 at least to use Warehouse 4.1.8+
+
+About prestashop upgrade - READ - http://build.prestashop.com/news/prestashop-1-7-4-0-available/
+It is important to use latest version of upgrade module
+
+- fix: some small design adjustments
+- fix: some additional fixes for php 7.2
+- fix: "no image" picture on product page
+
+
+[PS 1.7.4] 4.1.8
+===============================
+
+==== # IMPORTANT NOTICE: 
+==== # You need to use Prestasho 1.7.4.0 at least to use Warehouse 4.1.8
+
+About prestashop upgrade - READ - http://build.prestashop.com/news/prestashop-1-7-4-0-available/
+It is important to use latest version of upgrade module
+
+- new: compability with Prestashop 1.7.4.1
+- new: compability with PHP 7.2
+- new: contact form and newsletter subscription GDPR ready - please upgrade Prestashop core modules "contactform" and "ps_emailsubscription"
+- new: [hot] Added image hotspots widget in elementor
+- new: image carousel widget in eleemntor now lazy load images
+- new: option to load Prestashop classic template material icons from themeeditor
+- new: Revolution Slider module upgrade
+- new: submenu font settings in themeeditor
+- new: possible to hide columns and products list on categories page when elementor content is created
+
+
+- fix: mobile safari photo zoom
+- fix: some small isssues
+- fix: custom colors for inner tabs
+- fix: mobile safari toolbar overlap
+
+
+[PS 1.7] 4.1.7
+===============================
++ new: new hook displayMyAccountDashboard
++ new: build in lightspeed module compability, it is not more needed to perform additional steps like this https://www.litespeedtech.com/support/wiki/doku.php/litespeed_wiki:cache:lscps:customization_1_7#make_changes_to_template
++ new: revolution slider upgrade with some bugfixes
++ new: ps 1.7.3.2 compability
++ new: new hooks for iqithtmlandbanners module
++ new: Show all produst option in number products per page selector on product listings
++ new: wyswig editor in tabs and accordion widget elementor
++ new: hreflang attributes
++ new: option to align product buttons add to cart/view button in one line
++ new: option of autoclear homepage elementor cache when some actions in backoffice are made
++ new: possible to set order in brand widget in elemenetor
++ new: autocomplete search on mobile
++ new: elementor page builder also for category pages
++ new: design adjustment to official Prestashop GDPR module
++ new: iqitwishlist added to official Prestashop GDPR module
+
+- fix: revert back delivery options .tpl structure to same as classic template, to avoid potential conflicts with shipping modules
+- fix: redirect to my account during editing address when country is changed
+- fix: multilanguage in revolution slider
+- fix: iqitreviews errors translation problem
+- fix: iqitaddthis module upgrade - for compability with latest changes on addthis.com provider
+- fix: bo employers permissions of elementor page builder
+- fix: blockcart overlaping with menu when sticky menu is enabled
+- fix: backoffice themeeditor translation problem
+- fix: load youtube api in elementor page builder only when needed
+- fix: show notification message about not enough item in stock on cart page
+- fix: improved opengraph tags on blog pages
+- fix: iqitcompare multiple features support
+- fix: ph_relatedposts section translation issue
+- fix: show alert when terms and condition are not checked on checkout
+- fix: iqitpopup - when delayed overflowing of othere elements on page
+- fix: iqitadditional tabs language switcher on product edit after ps 1.7.3 upgrade
+- fix: second image on hover in carousels third slid
+- fix: 360 images viewer problem with touch events
+- fix: multiple videos in modal in elementor page builder
+
+
+[PS 1.7] 4.1.6
+===============================
++ new: ps 1.7.3 support - it is mandatary to use it on 1.7.3, it will not work on older version
++ new: revolution slider module upgrade
++ new: list option design for products in page builder 
++ new: next/prev products button are now infinity loop
++ new: possible to change reference code position in product page from themeeditor
++ new: categories in iqitlinskmanager module
++ new: possible to show tab with brand description on product page(option in themeeditor)
++ new: accordion widget in elementor can be collapsed at start
++ new: product page tabs with option switch to acordion on phones(option in themeditor > product page)
++ new: possibility to use also custom font names in elementor page builder additionally to google fonts
++ new: opengraph tags are now added to all pages not only product page
++ new: loading icon on product page when combination is changed(option in themeditor > product page)
++ new: Apple and Android touch icons(in themeeditor > responsive/mobile)
+
+- fix: brand url in elementor page builder
+- fix: cloned product details tab after changing attribute
+- fix: doubled manufactuer descriptions
+- fix: changed h1 tags of products names on products listings
+- fix: mobile menu(when accordion menu type is selected) scroll when sticky mobile header is enabled
+- fix: improved page preloader icon
+- fix: possible to hook iqitwishlist module to displayHeaderButtonsMobile hook(helpfull when it is hooked to displayHeaderButton instead of displayNav)
+- fix: login for is now expanded on checkout page if authentication failed, correct message is now visible
+- fix: problem with adding videos or 360 images to products on smaller screen resolutions
+- fix: some elementor save issues when editing blog post non default language only
+
+
+[PS 1.7] 4.1.5
+===============================
++ new: HOT - social login plugin - allow customer login to your shop with Google, Facebook and Twitter
++ new: paddings per device for elementor banenr widget
++ new: quick view next/prev product buttons on product lists
++ new: iqitdashboardnews module added - show notification about theme upgrades dashboard
++ new: cart in sticky menu
++ new: possible to show iqitadditionaltabs module as accordion below "add to cart" on product page
++ new: infinite loop product carusels in elementor option
++ new: link rel canoninal, next, prev added for better seo
++ new: social links now open in new window
+
+- fix: show related post tab only when they exist for product
+- fix: themes\warehouse\assets\css\error.css added back to template, it was missing in maintance page
+- fix: iqitextendedproduct problem with product active/deactive
+- fix: visible shoppingcart and add cart button in catalog mode or when price disabled for custoemr group
+- fix: conflict with express checkout button of paypal on product page
+- fix: addthis becomes invisible when combination is change
+- fix: themeeditor, page builder and megamenu file uploader now retuns relative path to images
+- fix: forgot password page mobile design issue
+- fix: iqitmegamenu producte search issue in backoffice caused by latest chrome upgrade
+- fix: some small IE11 design issues
+
+# Additional info: 
+- added: 2 more styles
+
+
+[PS 1.7] 4.1.4 
+===============================
++ new: HOT - infinity scroll option for product lists
++ new: show product brand name on product lists option
++ new: preloader icon for lazyload images
++ new: child template sample package added to package
++ new: iqitelementor: show product by brand option
++ new: iqitsizechart - show avaiable sizes on product list
++ new: iqitcrosseling module added, it replace default ps_crosseling module and allows to show crosselings in add to cart confirmation modal
++ new: mobile browser(Chrome, Firefox, Safari) address/header bar color option - example https://i.stack.imgur.com/6iShFm.png
++ new: improved order confirmation page
++ new: possible to replace breadcrumb background with category image
+
+- fix: category description position selector in theme editor
+- fix: alt tag for elementor images widgets
+- fix: back to top button disable/enable in themeeditor issue
+- fix: not clickable arrow on selectbox
+- fix: instagram photo padding problem when there was height limit set
+- fix: gift textarea collapse after returing back again to shipping tab
+- fix: small issue in mobile footer toggler
+- fix: returning back to default ps wyswig editor instead of elementor in blog and cms pages
+- fix: progressbar widget in elementor
+- fix: better look of video popup on product page / stop video on modal close
+- fix: show texture attributes same way as color attributes in facated search
+- fix: also show old price in iqitmegamenu
+- fix: improved cache in some modules
+- fix: problem with opening mobile menu after add to cart
+- fix: partial overlaping of close button by address bar when zoom modal is open and scrolled
+- fix: filter box overflow on iphone if set to be above product list
+- fix: remove need for double click on color switcher on product page
+
+
+
+[PS 1.7] 4.1.3 
+===============================
++ added: prestashop 1.7.2.4 compability update
++ added: related posts module - show related post on product page, configurable from product edit in bo
++ added: full width menu background option
++ added: full width horizontal submenu option
++ added: custom tpl widget in elementor 
++ added: free delivery countdown is also added to small cart notification
++ added: sizeguide visible also in quickview
++ added: loader icon to facated product search
++ added: Linkedin social link
+
+- fix: touch screen laptops issues
+- fix: small issues in iqitelementor
+- fix: blog meta title, descriptions and keywords
+- fix: adding to wishlist from quick view window
+- fix: image blink effect on product page on qty or attribute change
+- fix: issue with local custom font
+- fix: ajax search products order
+- fix: addthis module custom id
+- fix: better qty change on cart page using input field
+- fix: amount left for free delivery currency conversion
+- fix: cms category selection in mobile menu
+
+# Additional info: issues with ajax search missing images on PS 1.7.2.4 - it is needed to  apply fix from future ps version https://github.com/PrestaShop/PrestaShop/pull/8447/files
+
+
+4.1.2 
+===============================
+- 6 new theme styles
+- possible to hook wishlist module in displayHeaderButtons, so it will be showed next to cart on header
+- fix for problem with elementor content saving when there was alink in wyswig content added in cms pages or blog pages
+- bunch of small bugfixes
+
+
+4.1.1
+================================
+- HOT - HTML banners widget in Page builder module
+- possible to select where to show manufacturer logo on product page
+- option to put product thumbails on left column only on desktops
+- possible to select grid product title lenght (auto/one line/two lines/three lines)
+- fix for footer reaveal in Safari browsers
+- few other small bugfixes
+
+
+4.1 stable
+====================
+- Bunch bug fixes(translations issues, iqitthemeeditor issues, page builder issues and others)
+- NEW - blog module for 1.7 - with possibility to create post using page builder, posts widget in page builder
+- Prestashop 1.7.2.1 compability
+
+
+
+4.0 beta
+====================
+- initial realase for ps 1.7
